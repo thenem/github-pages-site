@@ -2,12 +2,12 @@
 module.exports = {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx,png,jpg}",
   ],
   theme: {
     extend: {
       backgroundImage: {
-        "mountain": "url('./src/assets/img/mountain.jpg')"
+        "mountain": "url('./assets/img/mountain.jpg')"
       }
     },
   },
